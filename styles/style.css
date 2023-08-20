@@ -1,0 +1,65 @@
+/* Estilos para las imágenes que se pueden agrandar */
+.card-img-clickable {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img-clickable:hover {
+  transform: scale(1.1);
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  text-align: center;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+.redes-sociales {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333;
+}
+
+body {
+  background-image: url('/multimedia/acuarela.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  color: #DC582A;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Cambia 'Arial' por la fuente que desees */
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.card {/*Spor palette usando mycolor.space a partir del color #DC582A*/
+  background-color: #ffffff; /* Cambia el color según tus preferencias */
+  border: 3px solid #E9A891; /* Cambia el color según tus preferencias */
+}
+
+p{
+  font-family:sans-serif;
+  font-style: italic;
+}
+
+
