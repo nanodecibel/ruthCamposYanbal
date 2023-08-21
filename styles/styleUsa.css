@@ -47,7 +47,7 @@
   }
   
   body {
-    background-image: url('/multimedia/eeuu.jpeg');
+    background-image: url('../multimedia/eeuu.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat:repeat;
