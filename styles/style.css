@@ -38,7 +38,7 @@ footer {
 }
 
 body {
-  background-image: url('/multimedia/acuarela.png');
+  background-image: url('../multimedia/acuarela.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
