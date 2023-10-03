@@ -27,7 +27,6 @@
 }
 
 footer {
-  background-color: #f2f2f2;
   padding: 20px 0;
   text-align: center;
 }
@@ -35,13 +34,6 @@ footer {
   font-size: 24px;
   margin: 0 10px;
   color: #333;
-}
-
-body {
-  background-image: url('../multimedia/acuarela.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 
@@ -54,12 +46,156 @@ h1 {
 
 .card {/*Spor palette usando mycolor.space a partir del color #DC582A*/
   background-color: #ffffff; /* Cambia el color según tus preferencias */
-  border: 3px solid #E9A891; /* Cambia el color según tus preferencias */
+  border: 1px solid #DC582A; /* Cambia el color según tus preferencias */
 }
+
+
+
+.navbar-custom {
+  background-color: #DC582A;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-custom .navbar-toggler-icon {
+  filter: invert(1); /* Cambia el color del icono del menú hamburguesa a blanco */
+}
+.navbar-custom .navbar-brand {
+  color: white !important; /* Cambia el color del texto de la marca */
+}
+.carousel-slide img {
+  max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+  max-height: 100%; /* Establece la altura máxima al 100% del contenedor */
+  display: block; /* Asegura que la imagen tenga un ancho definido */
+  margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+
+.carousel-slide {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0; /* Ajusta esto para controlar la distancia desde la parte inferior */
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-button {
+  display: inline-block;
+  background-color: #DC582A;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: garamond;
+  font-size: small;
+}
+
+.custom-tab{
+  color: #DC582A;
+}
+#kitDeBienvenida.container {
+  background-color: #eeece0; /* Cambia este valor al color que desees */
+  padding: 20px; /* Agrega espacio alrededor del contenido */
+}
+
 
 p{
-  font-family:sans-serif;
-  font-style: italic;
+  font-family: 'Poppins';
+  color: #000000;
 }
 
+.btn-custom {
+  background-color: #ffffff;
+  border-color: #dc582a;
+  color: #DC582A; /* Cambiar el color del texto al blanco para mayor contraste */
+}
 
+.btn-custom:hover {
+  background-color: #b24412; /* Cambiar el color de fondo cuando el botón se pasa por encima */
+  border-color: #b24412;
+  color: white;
+}
+  /* Estilo para las imágenes en todos los dispositivos */
+  .kit-image {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor en todos los dispositivos */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    display: block; /* Evita el espacio en blanco debajo de las imágenes */
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+  }
+
+  /* Estilo para el contenedor principal */
+  #infoDiv4 {
+    text-align: center;
+    padding: 20px; /* Añade espaciado alrededor del contenido principal */
+  }
+  #infoDiv3{
+    text-align: center;
+    padding: 20px;
+  }
+  #infoDiv2{
+    text-align: center;
+    padding: 20px;
+  }
+  #infoDiv1{
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  /* Estilo para el contenedor de la cuadrícula */
+  .kit-info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Diseño de cuadrícula adaptable */
+    gap: 20px; /* Espaciado entre elementos de la cuadrícula */
+    justify-items: center; /* Centra los elementos horizontalmente en la cuadrícula */
+  }
+
+  /* Estilo para las descripciones */
+  .kit-description {
+    font-size: 14px; /* Tamaño de fuente para las descripciones */
+  }
+
+/* Cambia el color del botón del acordeón cuando está desplegado */
+.accordion-button:not(.collapsed):not(.show) {
+  background-color: #DC582A; /* Cambia este color al que desees */
+  color: #ffffff; /* Cambia el color del texto si es necesario */
+}
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
+  right: 20px; /* Ajusta la distancia desde la derecha según tu preferencia */
+  z-index: 9999; /* Asegura que el botón esté por encima de otros elementos */
+}
+
+.whatsapp-button a {
+  display: block;
+  background-color: #DC582A; /* Color de fondo del botón de WhatsApp */
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.whatsapp-button img {
+  width: 30px; /* Ajusta el tamaño del icono de WhatsApp según sea necesario */
+  height: 30px;
+  filter: invert(1); /* Invierte el color del icono para que se vea claro en el fondo verde */
+}
+
+/* Estilos para los iconos de "Anterior" y "Siguiente" en los botones */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 24px; /* Cambia el tamaño del icono */
+  line-height: 100; /* Ajusta la altura de línea para centrar el icono verticalmente */
+}
+
+/* Cambia el color del icono cuando se coloca el cursor sobre los botones */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.3); /* Cambia el color de fondo al pasar el cursor sobre los botones */
+}
