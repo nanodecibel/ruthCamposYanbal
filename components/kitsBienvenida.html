@@ -1,0 +1,237 @@
+  <!--KITS DE BIENVENIDA-->
+
+  <div class="container" id="kits">
+    <H2>Kits de Bienvenida</H2>
+    <ul class="nav nav-tabs my-4" id="myTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+
+        <a class="nav-link active custom-tab" id="kitDeBienvenida" data-bs-toggle="tab" href="#tabKitDeBienvenida"
+          role="tab" aria-controls="tabKitDeBienvenida" aria-selected="true">¿Por qué adquirir <br> un kit de
+          bienvenida?</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link custom-tab" id="elInicioPerfecto" data-bs-toggle="tab" href="#tabOpcionesKits" role="tab"
+          aria-controls="tabElInicioPerfecto" aria-selected="false">Opciones kits <br> de bienvenida</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="myTabsContent">
+      <div class="tab-pane fade show active" id="tabKitDeBienvenida" role="tabpanel" aria-labelledby="kitDeBienvenida">
+        <div class="container" id="kitDeBienvenida">
+          <section class="my-5">
+            <h3>Ventajas de comprar un Kit de Bienvenida</h3>
+            <p>Con nuestros kit conocerás el mundo Yanbal, nuestros productos, herramientas y te guiaremos en tus
+              primeros pasos como Consultor@ independiente.</p>
+            <img src="multimedia/bag.svg" alt="bolsa de compras">
+            <h5>Vende muy fácil</h5>
+            <p>Nuestros Kits tienen los productos favoritos de los clientes y demostradores, por lo que venderlos será
+              muy facil</p>
+            <img src="multimedia/cash.svg" alt="bolsita de dinero">
+            <h5>Gana fácil desde el inicio</h5>
+            <p>Los productos que vienen en los Kits tienen un precio especial para ti, menor al que aparece en el
+              catálogo. Desde ahí ¡ya estás ganando!</p>
+            <img src="multimedia/trophee.svg" alt="trofeo">
+            <h5>Crece siendo un@ expert@</h5>
+            <p>En el Kit encontrarás una guía con informacion clave para tus primeros pasos como Consultor@</p>
+
+          </section>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="tabOpcionesKits" role="tabpanel" aria-labelledby="tabOpcionesKits">
+        <div class="container" id="tabOpcionesKits">
+          <h3 class="my-4">Tus nuevas herramientas de trabajo</h3>
+          <p>Aquí empieza tu inicio Ganador, tu historia de éxito. Exige el kit que más se adecúe a ti. Tú decides si
+            vender los productos o probarlos y ser embajador@ de nuestra marca. en cualquiera de las formas, ¡Seguirás
+            ganando!
+          </p>
+          <div class="row">
+            <div class="col-6 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="multimedia/kits/kitSpaDeManos.png" class="card-img-top card-img-clickable"
+                    alt="Ohm concurso de unidades" onclick="openLightbox(this)">
+                  <h5 class="card-title">Kit Spa de manos</h5>
+                  <p class="card-text">Valorizado<br>en:$ 23
+                  </p>
+                  <p class="card-text">Precio de inicio:$ 6
+                  </p>
+                  <button type="button" class="btn btn btn-custom btn-custom:hover" data-divnumber="1"
+                    onclick="showInfoAndScroll(1)">Ver más</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="multimedia/kits/kitRostroPerfecto.png" class="card-img-top card-img-clickable"
+                    alt="Ohm concurso de unidades" onclick="openLightbox(this)">
+                  <h5 class="card-title">Kit Rostro Perfecto</h5>
+                  <p class="card-text">Valorizado<br>en:$ 49
+                  </p>
+                  <p class="card-text">Precio de inicio:$ 11
+                  </p>
+                  <button type="button" class="btn btn btn-custom btn-custom:hover" data-divnumber="2"
+                    onclick="showInfoAndScroll(2)">Ver más</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="multimedia/kits/kitPerfumesFemeninos.png" class="card-img-top card-img-clickable"
+                    alt="Ohm concurso de unidades" onclick="openLightbox(this)">
+                  <h5 class="card-title">Kit Perfumes Femeninos</h5>
+                  <p class="card-text">Valorizado<br>en:$ 35
+                  </p>
+                  <p class="card-text">Precio de inicio:$ 19
+                  </p>
+                  <button type="button" class="btn btn btn-custom btn-custom:hover" data-divnumber="3"
+                    onclick="showInfoAndScroll(3)">Ver más</button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="card">
+                <div class="card-body">
+                  <img src="multimedia/kits/kitPerfumesMasculinos.png" class="card-img-top card-img-clickable"
+                    onclick="openLightbox(this)">
+                  <h5 class="card-title">Kit Perfumes Masculinos</h5>
+                  <p class="card-text">Valorizado<br>en:$ 52
+                  </p>
+                  <p class="card-text">Precio de inicio:$ 19
+                  </p>
+                  <button type="button" class="btn btn-custom btn-custom:hover" data-divnumber="4"
+                    onclick="showInfoAndScroll(4)">Ver más</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox" onclick="closeLightbox()">
+    <img src="" alt="Imagen ampliada">
+  </div>
+
+  <div id="infoDiv1" style="display: none;">
+    <h3>Kit Spa de manos</h3>
+    <img class="kit-image" src="multimedia/kits/kitSpaDeManos.png" alt="Imagen Spa de Manos">
+    <p>¡Uno de los favoritos! Si buscas empezar ofreciendo productos de cuidado y volverte un@ expert@ en piel, este kit
+      es perfecto para ti</p>
+    <div class="kit-info-container">
+      <div>
+        <img class="kit-image" src="multimedia/kits/cremaUnaGato.jpeg" alt="Crema uña de gato">
+        <p class="kit-description">Una crema hidratante para manos con extracto de uña de gato 100%
+          natural, especialmente formulada para pieles secas, extrasecas y/o con descamaciones.
+        </p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/exfolianteUnaGato.jpeg" alt="Exfoliante uña de gato">
+        <p class="kit-description">Luce una piel renovada y libre de impurezas con nuestro exfoliante
+          en gel para manos y cuerpo; que repara e hidrata la piel seca y extra seca.
+        </p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/demostradoresMujer.jpeg" alt="Demostradores">
+        <p class="kit-description">También vienen demostradores de otras categorías, para que tengas qué ofrecer
+          siempre.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="infoDiv2" style="display: none;">
+    <h3>Kit Rostro Perfecto</h3>
+    <img class="kit-image" src="multimedia/kits/kitRostroPerfecto.png" alt="kit rostro perfecto">
+    <p>¡Todo el mundo ama maquillarse! Y estos son los productos básicos para empezar y aprender un poco más sobre
+      maquillaje.</p>
+    <div class="kit-info-container">
+      <div>
+        <img class="kit-image" src="multimedia/kits/bbCream.jpeg" alt="bb Cream">
+        <p class="kit-description">Una crema hidratante matificante con color, que perfecciona y unifica el tono de la
+          piel.
+        </p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/rimelUniquecil.jpeg" alt="Rimel Uniquecil">
+        <p class="kit-description">Deja tus pestañas aún más largas. Además, su brocha fina permite in maquillaje de
+          alta presición que cubre y envuelve cada pestaña.
+        </p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/hidraLip.jpeg" alt="Hidra Lip">
+        <p class="kit-description">Súper ligero con color intenso que se mantiene intacto hasta por 12 horas.</p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/demostradoresMujer.jpeg" alt="Demostradores">
+        <p class="kit-description">También vienen demostradores de otras categorías, para que tengas qué ofrecer
+          siempre.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="infoDiv3" style="display:none;">
+    <h3>Kit Perfumes Femeninos</h3>
+    <img class="kit-image" src="multimedia/kits/kitPerfumesFemeninos.png" alt="Kit Perfumes femeninos">
+    <p>Si buscas descubrir más sobre el mundo de perfumes, teines que llevar este kit. Además, incluye 12 demostradores.
+    </p>
+
+    <div class="kit-info-container">
+      <div>
+        <img class="kit-image" src="multimedia/kits/osadia.jpg" alt="Perfume osadía">
+        <p class="kit-description">Un perfume floral con notas de granada, flor de maracuyá y toques picantes de
+          jengibre.
+          Un aroma exótico e impactante que describe el espíritu cautivador de la mujer latina
+        </p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/aromakit.jpg" alt="AromaKit">
+        <p class="kit-description">¡Llévalo contigo a todas partes! Contiene 10 demostradores de 1ml de los perfumes más
+          exitosos. Para que consigas clientes y ganes mucho más</p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/demostradoresMujer.jpeg" alt="Demostradores">
+        <p class="kit-description">También vienen demostradores de otras categorías, para que tengas qué ofrecer
+          siempre.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="infoDiv4" style="display:none;">
+    <h3>Kit Perfumes Masculinos</h3>
+    <img class="kit-image" src="multimedia/kits/kitPerfumesMasculinos.png" alt="Imagen">
+    <p>¡Sé un@ expert@ en perfumes masculinos! Lleva siempre tus demostradores contigo y consigue clientes donde vayas
+    </p>
+
+    <div class="kit-info-container">
+      <div>
+        <img class="kit-image" src="multimedia/kits/ohm.jpg" alt="Ohm">
+        <p class="kit-description">La esencia de las cosas que importan en un perfume herbal con toques aromáticos y
+          cítricos que combina lavanda, toronja y salvia. Frescura e intensidad para el hombre que disfruta cada momento
+        </p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/aromakit.jpg" alt="AromaKit">
+        <p class="kit-description">¡Llévalo contigo a todas partes! Contiene 10 demostradores de 1ml de los perfumes más
+          exitosos. Para que consigas clientes y ganes mucho más</p>
+      </div>
+
+      <div>
+        <img class="kit-image" src="multimedia/kits/demostradoresHombre.png" alt="Demostradores">
+        <p class="kit-description">También vienen demostradores de otras categorías, para que tengas qué ofrecer
+          siempre.</p>
+      </div>
+    </div>
+  </div>
